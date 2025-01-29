@@ -24,8 +24,6 @@ function App() {
       setPosts(fetchedPosts);
       // limitado a 100 post para evitar agotamiento
       setTotalPages(Math.ceil(100 / POSTS_PER_PAGE));
-    } catch (error) {
-      console.error(error);
     } finally {
       setLoading(false);
     }
