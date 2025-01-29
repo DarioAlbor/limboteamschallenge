@@ -1,0 +1,19 @@
+@import '../variables.scss';
+
+.search-bar {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px 20px;
+  margin: 0 auto 20px auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+
+  &:focus {
+    border-color: $primary-color;
+    outline: none;
+    box-shadow: 0 0 5px rgba($primary-color, 0.5);
+  }
+}
