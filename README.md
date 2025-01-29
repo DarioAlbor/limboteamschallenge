@@ -23,4 +23,4 @@ Technologies
 • Framer Motion
 • React Hooks
 
-Visit the website: [https://limboteams.vercel.app/](https://limboteamsvercel.app/)
+Visit the website: [https://limboteams.vercel.app/](https://limboteamsvercel.app/).
